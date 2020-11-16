@@ -11,6 +11,8 @@ This project exists for several reasons:
 - I do indeed plan on contributing these changes to the official projects above very soon.
 - I wanted practice with Terraform Plugin SDK v2 :smirk:.
 
+Corresponding changes to the upstream grafana-api-golang-client are [staged here](https://github.com/orendain/grafana-api-golang-client/pull/1).
+
 ## Development
 
 To build the binary, and move it to one of the expected [plugin locations](https://www.terraform.io/docs/extend/how-terraform-works.html#plugin-locations),
