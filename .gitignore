@@ -3,4 +3,7 @@ example/.terraform
 example/terraform.tfstate*
 
 # Built binary.
-./terraform-provider-grafanaauth
+terraform-provider-grafanaauth
+
+# IDE.
+.idea
