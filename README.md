@@ -7,8 +7,8 @@ A very simple Terraform Provider to manage the creation of [Grafana API Keys](ht
 This project exists for several reasons:
 - The official [Terraform Provider for Grafana](https://github.com/grafana/terraform-provider-grafana) does not support managing API key resources.
 - The official [Grafana API Client](https://github.com/grafana/grafana-api-golang-client), which the official provider above uses, does not expose methods for calls against the Authorization API.
-- I needed a working provider for this purpose the next day, and could not want to wait for contributions to the two official projects above to be merged in.
-- I do indeed plan on contributing these changes to the official projects above very soon.
+- I needed a working provider for this purpose the next day, and could not wait for my contributions to the two official projects above to be merged in.
+- I do indeed plan on porting these changes to the official projects above very soon.
 - I wanted practice with Terraform Plugin SDK v2 :smirk:.
 
 Corresponding changes to the upstream grafana-api-golang-client are [staged here](https://github.com/orendain/grafana-api-golang-client/pull/1).
