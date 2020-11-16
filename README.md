@@ -26,7 +26,7 @@ To run acceptance tests:
 
 ## Use
 
-Please see the `examples` directory for some simple examples.
+Please see the `example` directory for some simple examples.
 
 ## Limitations / Known Issues
 
