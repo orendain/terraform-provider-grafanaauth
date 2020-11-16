@@ -1,0 +1,6 @@
+# Example files.
+example/.terraform
+example/terraform.tfstate*
+
+# Built binary.
+./terraform-provider-grafanaauth
