@@ -7,6 +7,7 @@ terraform {
   }
 }
 
+
 provider "grafanaauth" {
   url = "http://localhost:3000"
   username = "admin"
@@ -14,6 +15,7 @@ provider "grafanaauth" {
 //  token = "can use token instead of username and password"
 //  organization_id = 2
 }
+
 
 resource "grafanaauth_api_key" "foo" {
   name = "key_foo"
