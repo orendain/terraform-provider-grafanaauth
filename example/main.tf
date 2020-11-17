@@ -1,8 +1,9 @@
 terraform {
   required_providers {
     grafanaauth = {
-      source = "github.com/orendain/grafanaauth"
-      versions = ["0.0.2"]
+      source   = "orendain/grafanaauth"
+//    source   = "github.com/orendain/grafanaauth" // for use during development
+      versions = "0.0.3"
     }
   }
 }
@@ -37,3 +38,4 @@ output "api_key_foo_key_only" {
 output "api_key_bar" {
   value = grafanaauth_api_key.bar
 }
+
