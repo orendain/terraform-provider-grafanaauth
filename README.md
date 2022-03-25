@@ -1,3 +1,6 @@
+:heavy_check_mark: | This repo's [work has been contributed upstream](https://github.com/grafana/terraform-provider-grafana/issues/143). Repo is now retired.
+:---: | :---
+
 # Terraform Provider for Grafana Auth API
 
 A very simple Terraform Provider to manage the creation of [Grafana API Keys](https://grafana.com/docs/grafana/latest/http_api/auth/).
